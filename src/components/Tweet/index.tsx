@@ -1,68 +1,68 @@
 import React from 'react';
 
 import {
-  Container,
-  Retweeted,
-  RocketSeatIcon,
-  Body,
-  Avatar,
-  Content,
-  Header,
-  Dot,
-  Description,
-  ImageContent,
-  Icons,
-  Status,
-  RetweetIcon,
-  LikeIcon,
-  CommentIcon
+	Container,
+	Retweeted,
+	RocketSeatIcon,
+	Body,
+	Avatar,
+	Content,
+	Header,
+	Dot,
+	Description,
+	ImageContent,
+	Icons,
+	Status,
+	RetweetIcon,
+	LikeIcon,
+	CommentIcon,
 } from './styles';
 
 const Tweet: React.FC = () => {
-  return (
-    <Container>
-      <Retweeted>
-        <RocketSeatIcon />
-        Você retweetou
-      </Retweeted>
+	return (
+		<Container>
+			<Retweeted>
+				<RocketSeatIcon />
+				Você retweetou
+			</Retweeted>
 
-      <Body>
-        <Avatar />
+			<Body>
+				<Avatar />
 
-        <Content>
-          <Header>
-            <strong>RocketSeat</strong>
-            <span>@rocketseat</span>
+				<Content>
+					<Header>
+						<strong>RocketSeat</strong>
+						<span>@rocketseat</span>
 
-            <Dot />
+						<Dot />
 
-            <time>27 de jun</time>
-          </Header>
+						<time>27 de jun</time>
+					</Header>
 
-          <Description>Foguete não tem ré!</Description>
+					<Description>Foguete não tem ré!</Description>
 
-          <ImageContent />
+					<ImageContent />
 
-          <Icons>
-            <Status>
-              <CommentIcon />
-              20
-            </Status>
+					<Icons>
+						<Status>
+							<CommentIcon />
+							20
+						</Status>
 
-            <Status>
-              <RetweetIcon />
-              18
-            </Status>
+						<Status>
+							<RetweetIcon />
+							18
+						</Status>
 
-            <Status>
-              <LikeIcon />
-              6699
-            </Status>
-          </Icons>
-        </Content>
-      </Body>
-    </Container>
-  );
-}
+						<Status>
+							<LikeIcon />
+							6699
+						</Status>
+					</Icons>
+				</Content>
+			</Body>
+		</Container>
+	);
+};
 
 export default Tweet;
