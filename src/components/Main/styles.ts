@@ -8,9 +8,9 @@ export const Container = styled.div`
 
 	width: min(601px, 100%);
 
-	@media (min-width: 601px, 100%) {
-		border-left: 1px solid var(--outline);
-		border-right: 1px solid var(--outline);
+	@media (min-width: 500px) {
+		border-left: 1px solid var(--gray);
+		border-right: 1px solid var(--gray);
 	}
 `;
 
@@ -24,7 +24,6 @@ export const Header = styled.div`
 	align-items: center;
 
 	text-align: left;
-	padding: 8px 0 9px 13px;
 	border-bottom: 1px solid var(--outline);
 
 	z-index: 2;
