@@ -1,6 +1,7 @@
 import styled, { css } from 'styled-components';
-import { RocketseatIcon as Rocketseat } from '../../icons/RocketseatIcon';
+
 import { MdChat, MdFavorite } from '../../icons/ReactIcons';
+import { RocketseatIcon as Rocketseat } from '../../icons/RocketseatIcon';
 
 export const Container = styled.div`
 	display: flex;
