@@ -16,6 +16,7 @@ export const Container = styled.div`
 export const Header = styled.div`
   position: sticky;
   top: 0;
+  
   background: var(--primary);
 
   display: flex;
@@ -24,6 +25,8 @@ export const Header = styled.div`
   text-align: left;
   padding: 8px 0 9px 13px;
   border-bottom: 1px solid var(--outline);
+
+  z-index: 2;
 
   > button {
     padding: 8px;
