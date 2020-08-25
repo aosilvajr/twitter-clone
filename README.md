@@ -10,18 +10,20 @@
 </p>
 
 <p align="center">
-  <kbd>
-    <img width="250" style="border-radius: 5px" height="450" src="https://i.imgur.com/7CJSiNA.gif" alt="Intro">
-  </kbd>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <kbd>
-    <img width="250" style="border-radius: 5px" height="450" src="https://i.imgur.com/jxUIe8w.gif" alt="Register adopt">
-  </kbd>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <kbd>
-    <img width="250" style="border-radius: 5px" height="450" src="https://i.imgur.com/CNczcSk.gif" alt="Chat">
-  </kbd>
+	<kbd>
+		<img style="border-radius: 5px"  alt="Desktop" style="border-radius: 10px;" src="src/assets/twitter-clone-desktop.png" />
+	</kbd>
 </p>
+
+<p align="center">
+	<kbd>
+		<img height="500" style="border-radius: 5px; margin-top: 5px;" alt="Tablet" src="src/assets/twitter-clone-tablet.png" />
+	</kbd>
+	<kbd>
+		<img height="500" style="border-radius: 5px" alt="Mobile" src="src/assets/twitter-clone-mobile.png" />
+	</kbd>
+</p>
+
 
 🛠 Tecnologias
 =================
